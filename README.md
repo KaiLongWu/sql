@@ -28,7 +28,7 @@ B-->M(学生学籍管理系统)
 
 ## 4.MYSQL API使用
 1. 在visual studio 2019中设置，工程--属性--VC++目录--包含目录，将`mysql server\include`的绝对路径添加进去，例如`C:\Program Files\MySQL\MySQL Server 8.0\include`。将mysql server\lib文件夹下的`libmysql.lib`和`libmysql.dll`拷贝到工程目录下。
-2. 在Mysql 8.0中建立新数据库`student`,创建表`student`。表如下图。
+2. 在Mysql 8.0中建立新数据库`student`,创建表`persons`。表如下图。
    
 stu_id | stu_name | stu_gender | stu_class
 ---|:---:|:---:|:---:
